@@ -1,0 +1,1226 @@
+/*--------------------------------------  商品中间的样式   --------------------------------------------*/
+.sp_main_div{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    background: white;
+}
+.sp_header{
+    width: 1200px;
+    margin: 0 auto;
+    height: 187px;
+    background: #e7e7e7;
+}
+.sp_center{
+    width: 1200px;
+    height: 400px;
+    margin: -10px auto;
+    padding-bottom: 600px;
+    background: white;
+}
+.header .logo_2{
+    width: 200px;
+    height: 130px;
+    margin-top: -30px;
+    float: left;
+}
+.header .logo_2 img{
+    width: 200px;
+    height: 130px;
+    margin-top:30px;
+    float: left;
+}
+
+.header .banner  .quan_bu_sp_fen_lei{
+    width: 820px;
+    height: 26px;
+    background: red;
+    color: white;
+    margin-left: -200px;
+    text-align: center;
+}
+.header .banner .quan_bu_sp_fen_lei .lei1{
+    clear: both;
+    width: 200px;
+    height: 26px;
+    position: relative;
+}
+.header .banner .quan_bu_sp_fen_lei .lei2{
+    clear: both;
+    width: 90px;
+    height: 26px;
+    margin-left: 200px;
+    margin-top: -26px;
+    background: white;
+    position: relative;
+}
+.header .banner .quan_bu_sp_fen_lei .lei2 a:hover{
+    color: red;
+}
+
+.header .banner .quan_bu_sp_fen_lei .lei3{
+    clear: both;
+    width: 540px;
+    height: 26px;
+    margin-left: 280px;
+    margin-top: -26px;
+    background: white;
+    position: relative;
+}
+
+.header .banner .quan_bu_sp_fen_lei .lei1 a{
+    top: 4px;
+    left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+}
+
+.header .banner .quan_bu_sp_fen_lei .lei2 a{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-top: 26px;
+
+}
+.header .banner .quan_bu_sp_fen_lei  .lei3 a{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.header .banner .quan_bu_sp_fen_lei  .lei3 a:hover{
+    color: red;
+}
+
+.header .banner .quan_bu_sp_fen_lei .lei1_shang_ping_lie_biao{
+    width: 200px;
+    height: 300px;
+    display: none;
+}
+.header .banner .quan_bu_sp_fen_lei .lei1_shang_ping_lie_biao .sp_lie_biao_1{
+    width: 200px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+.header .banner .quan_bu_sp_fen_lei .lei1_shang_ping_lie_biao .sp_lie_biao_2{
+    clear: both;
+    width: 200px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+.header .banner .quan_bu_sp_fen_lei .lei1_shang_ping_lie_biao .sp_lie_biao_2:hover{
+    background: white;
+    margin-top: 0px;
+}
+.header .banner .quan_bu_sp_fen_lei .lei1_shang_ping_lie_biao .sp_lie_biao_2 a{
+    color: black;
+    margin-left: 0px;
+ }
+.header .banner .quan_bu_sp_fen_lei .lei1_shang_ping_lie_biao .sp_lie_biao_1 a{
+    color: black;
+    margin-left: 0px;
+}
+.header .banner .quan_bu_sp_fen_lei .lei1_shang_ping_lie_biao .sp_lie_biao_1:hover{
+    width: 200px;
+    height: 30px;
+    background: white;
+}
+
+.header .banner .quan_bu_sp_fen_lei .lei1:hover .lei1_shang_ping_lie_biao{
+    width: 200px;
+    height: 300px;
+    background: #c9c9c9;
+    display: block;
+    top:26px;
+    position: absolute;
+}
+.header .banner .quan_bu_sp_fen_lei .lei1_shang_ping_lie_biao .sp_lie_biao_1 .sp_jia_ju{
+    width: 100px;
+    height: 200px;
+    background: magenta;
+    margin-left: 200px;
+    display: none;
+}
+.header .banner .quan_bu_sp_fen_lei .lei1_shang_ping_lie_biao .sp_lie_biao_1 .sp_jia_ju_1{
+    width: 100px;
+    height: 20px;
+    background: #cfd8dc;
+}
+.header .banner .quan_bu_sp_fen_lei .lei1_shang_ping_lie_biao .sp_lie_biao_1 .sp_jia_ju_1:hover{
+    width: 100px;
+    height: 20px;
+    background: white;
+}
+.header .banner .quan_bu_sp_fen_lei .lei1_shang_ping_lie_biao .sp_lie_biao_1 .sp_jia_ju:hover{
+    /*background: white;*/
+}
+.header .banner .quan_bu_sp_fen_lei .lei1_shang_ping_lie_biao .sp_lie_biao_1:hover .sp_jia_ju{
+    display: block;
+}
+.header .banner .quan_bu_sp_fen_lei .lei1_shang_ping_lie_biao .sp_lie_biao_1:hover .sp_jia_ju  a{
+    color: black;
+    margin-left: 160px;
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+}
+
+.header .banner .quan_bu_sp_fen_lei .lei1_shang_ping_lie_biao .sp_lie_biao_2 .sp_shou_ji{
+    width: 100px;
+    height: 200px;
+    background: #c9c9c9;
+    margin-left: 200px;
+    display: none;
+}
+.header .banner .quan_bu_sp_fen_lei .lei1_shang_ping_lie_biao .sp_lie_biao_2:hover .sp_shou_ji{
+    display: block;
+}
+.header .banner .quan_bu_sp_fen_lei .lei1_shang_ping_lie_biao .sp_lie_biao_2 .sp_shou_ji .sp_shou_ji_1{
+    width: 100px;
+    height: 20px;
+}
+.header .banner .quan_bu_sp_fen_lei .lei1_shang_ping_lie_biao .sp_lie_biao_2 .sp_shou_ji .sp_shou_ji_1 a{
+    color: black;
+    margin-left: 160px;
+    margin-top: 30p;
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+}
+.header .banner .quan_bu_sp_fen_lei .lei1_shang_ping_lie_biao .sp_lie_biao_2 .sp_shou_ji .sp_shou_ji_1:hover{
+    background: white;
+}
+
+
+
+
+
+
+/*----------------------------------------  中部分类样式 ----------------------------------------------*/
+.sp_center .sp_class{
+    width: 1200px;
+    height: 800px;
+    margin-top: -20px;
+}
+.sp_center .sp_class .sp_class_jia_ju_title{
+    width: 1200px;
+    height: 28px;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    background: white;
+}
+.sp_center .sp_class .sp_class_jia_ju{
+    width: 1200px;
+    height: 772px;
+    background: lightskyblue;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_1{
+    width: 240px;
+    height: 260px;
+    background: #c8def4;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_1 .sp_shang_ping_1_img img{
+    width: 240px;
+    height: 200px;
+    margin-top: 4px;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_1 .sp_shang_ping_1_img img:hover{
+    margin-top: 0px;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_1 .sp_shang_ping_1_img_describe{
+     width: 240px;
+     height: 60px;
+     margin-top: -4px;
+     background: white;
+ }
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_1 .sp_shang_ping_1_img_describe p{
+    width: 240px;
+    height: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_1 .sp_shang_ping_1_img_describe .price_div{
+    width: 160px;
+    height: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: red;
+}
+
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_2{
+    width: 240px;
+    height: 260px;
+    margin-top: -260px;
+    margin-left: 240px;
+    background: #def9fb;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_2 .sp_shang_ping_1_img img{
+    width: 240px;
+    height: 200px;
+    margin-top: 4px;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_2 .sp_shang_ping_1_img img:hover{
+    margin-top: 0px;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_2 .sp_shang_ping_1_img_describe{
+    width: 240px;
+    height: 60px;
+    margin-top: -4px;
+    background: white;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_2 .sp_shang_ping_1_img_describe p{
+    width: 240px;
+    height: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_2 .sp_shang_ping_1_img_describe .price_div{
+    width: 160px;
+    height: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: red;
+}
+
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_3{
+    width: 240px;
+    height: 260px;
+    margin-top: -260px;
+    margin-left: 480px;
+    background: #c8def4;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_3 .sp_shang_ping_1_img img{
+    width: 240px;
+    height: 200px;
+    margin-top: 4px;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_3 .sp_shang_ping_1_img img:hover{
+    margin-top: 0px;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_3 .sp_shang_ping_1_img_describe{
+    width: 240px;
+    height: 60px;
+    margin-top: -4px;
+    background: white;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_3 .sp_shang_ping_1_img_describe p{
+    width: 240px;
+    height: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_3 .sp_shang_ping_1_img_describe .price_div{
+    width: 160px;
+    height: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: red;
+}
+
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_4{
+    width: 240px;
+    height: 260px;
+    margin-top: -260px;
+    margin-left: 720px;
+    background: #def9fb;
+}
+
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_4 .sp_shang_ping_1_img img{
+    width: 240px;
+    height: 200px;
+    margin-top: 4px;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_4 .sp_shang_ping_1_img img:hover{
+    margin-top: 0px;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_4 .sp_shang_ping_1_img_describe{
+    width: 240px;
+    height: 60px;
+    margin-top: -4px;
+    background: white;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_4 .sp_shang_ping_1_img_describe p{
+    width: 240px;
+    height: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_4 .sp_shang_ping_1_img_describe .price_div{
+    width: 160px;
+    height: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: red;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_5{
+    width: 240px;
+    height: 260px;
+    margin-top: -260px;
+    margin-left: 960px;
+    background: #c8def4;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_5 .sp_shang_ping_1_img img{
+    width: 240px;
+    height: 200px;
+    margin-top: 4px;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_5 .sp_shang_ping_1_img img:hover{
+    margin-top: 0px;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_5 .sp_shang_ping_1_img_describe{
+    width: 240px;
+    height: 60px;
+    margin-top: -4px;
+    background: white;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_5 .sp_shang_ping_1_img_describe p{
+    width: 240px;
+    height: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.sp_center .sp_class .sp_class_jia_ju .sp_shang_ping_5 .sp_shang_ping_1_img_describe .price_div{
+    width: 160px;
+    height: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: red;
+}
+
+
+.sp_center .sp_class .sp_class_bing_xiang{
+    width: 1200px;
+    height: 200px;
+    background: greenyellow;
+    margin-top: -500px;
+}
+.sp_center .sp_class .sp_class_bing_xiang2{
+    width: 1200px;
+    height: 200px;
+    background: greenyellow;
+    margin-top: 506px;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1{
+    width: 600px;
+    height: 200px;
+    background: palegreen;
+    margin-top: -500px;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1 .sp_class_bing_xiang_1_img1{
+    width: 200px;
+    height: 200px;
+    background: mediumvioletred;
+    margin-top: -500px;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1 .sp_class_bing_xiang_1_img2{
+    width: 200px;
+    height: 200px;
+    background: indianred;
+    margin-top: -200px;
+    margin-left: 200px;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1 .sp_class_bing_xiang_1_img3{
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin-top: -200px;
+    margin-left: 400px;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1_describe{
+    width: 600px;
+    height: 200px;
+    background: white;
+    margin-left: 600px;
+    margin-top: -200px;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_1{
+    width: 600px;
+    height: 30px;
+    position: relative;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_2{
+    width: 600px;
+    height: 30px;
+    position: relative;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_3{
+    width: 600px;
+    height: 30px;
+    position: relative;
+}
+
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_3 .sp_xiang_3_man_jian{
+    left: 110px;
+    top: 4px;
+    position: absolute;
+    width:80px;
+    height: 18px;
+    border:2px solid red;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_3 .sp_xiang_3_man_jian a{
+    color: red;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_3 .sp_xiang_3_man_jian:hover{
+    background: #c1c1c1;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_4{
+    width: 600px;
+    height: 30px;
+    position: relative;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_4 .sp_xiang_4_chu_xiao{
+    left: 110px;
+    top: 6px;
+    position: absolute;
+    width: 480px;
+    height: 18px;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_5{
+    width: 600px;
+    height: 30px;
+    position: relative;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_5 .sp_xiang_5_man_jian{
+    left: 110px;
+    top: 4px;
+    position: absolute;
+    width:30px;
+    height: 18px;
+    border:3px solid red;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_5 p{
+    left: 150px;
+    top: 6px;
+    position: absolute;
+    width: 480px;
+    height: 18px;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_6{
+    width: 600px;
+    height: 50px;
+    position: relative;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_6_xiang_qiang{
+    width: 100px;
+    height: 25px;
+    left: 70px;
+    top: 10px;
+    position: absolute;
+    background: #def9fb;
+    border:3px solid red;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_6_xiang_qiang a{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    left: 8px;
+    top: 4px;
+    position: absolute;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_6_xiang_qiang:hover{
+    background: white;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_jia_ru_gou_wu_che{
+    width: 120px;
+    height: 25px;
+    left: 270px;
+    top: 10px;
+    position: absolute;
+    background: #def9fb;
+    border:3px solid red;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_jia_ru_gou_wu_che a{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    left: 8px;
+    top: 4px;
+    position: absolute;
+}
+.sp_center .sp_class .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_jia_ru_gou_wu_che:hover{
+    background: white;
+}
+
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1{
+    width: 600px;
+    height: 200px;
+    background: palegreen;
+    margin-top: -500px;
+}
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1 .sp_class_bing_xiang_1_img1{
+    width: 200px;
+    height: 200px;
+    background: mediumvioletred;
+    margin-top: -500px;
+}
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1 .sp_class_bing_xiang_1_img2{
+    width: 200px;
+    height: 200px;
+    background: indianred;
+    margin-top: -200px;
+    margin-left: 200px;
+}
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1 .sp_class_bing_xiang_1_img3{
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin-top: -200px;
+    margin-left: 400px;
+}
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe{
+    width: 600px;
+    height: 200px;
+    background: white;
+    margin-left: 600px;
+    margin-top: -200px;
+}
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_1{
+    width: 600px;
+    height: 30px;
+    position: relative;
+}
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_2{
+    width: 600px;
+    height: 30px;
+    position: relative;
+}
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_3{
+    width: 600px;
+    height: 30px;
+    position: relative;
+}
+
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_3 .sp_xiang_3_man_jian{
+    left: 110px;
+    top: 4px;
+    position: absolute;
+    width:80px;
+    height: 18px;
+    border:2px solid red;
+}
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_3 .sp_xiang_3_man_jian a{
+    color: red;
+}
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_3 .sp_xiang_3_man_jian:hover{
+    background: #c1c1c1;
+}
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_4{
+    width: 600px;
+    height: 30px;
+    position: relative;
+}
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_4 .sp_xiang_4_chu_xiao{
+    left: 110px;
+    top: 6px;
+    position: absolute;
+    width: 480px;
+    height: 18px;
+}
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_5{
+    width: 600px;
+    height: 30px;
+    position: relative;
+}
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_5 .sp_xiang_5_man_jian{
+    left: 110px;
+    top: 4px;
+    position: absolute;
+    width:30px;
+    height: 18px;
+    border:3px solid red;
+}
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_5 p{
+    left: 150px;
+    top: 6px;
+    position: absolute;
+    width: 480px;
+    height: 18px;
+}
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_6{
+    width: 600px;
+    height: 50px;
+    position: relative;
+}
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_6_xiang_qiang{
+    width: 100px;
+    height: 25px;
+    left: 70px;
+    top: 10px;
+    position: absolute;
+    background: #def9fb;
+    border:3px solid red;
+}
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_6_xiang_qiang a{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    left: 8px;
+    top: 4px;
+    position: absolute;
+}
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_6_xiang_qiang:hover{
+    background: white;
+}
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_jia_ru_gou_wu_che{
+    width: 120px;
+    height: 25px;
+    left: 270px;
+    top: 10px;
+    position: absolute;
+    background: #def9fb;
+    border:3px solid red;
+}
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_jia_ru_gou_wu_che a{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    left: 8px;
+    top: 4px;
+    position: absolute;
+}
+.sp_center .sp_class .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_jia_ru_gou_wu_che:hover{
+    background: white;
+}
+
+
+
+
+.sp_center .sp_display{
+    width: 1200px;
+    height: 800px;
+    background: red;
+    margin-top: -70px;
+}
+
+.sp_center .sp_display .sp_class_shou_ji_title{
+    width: 1200px;
+    height: 28px;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    background: white;
+}
+
+.sp_center .sp_display .sp_display_shou_ji{
+    width: 1200px;
+    height: 772px;
+    background: lightpink;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_1{
+    width: 240px;
+    height: 260px;
+    background: #c8def4;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_1 .sp_shang_ping_1_img img{
+    width: 240px;
+    height: 200px;
+    margin-top: 4px;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_1 .sp_shang_ping_1_img img:hover{
+    margin-top: 0px;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_1 .sp_shang_ping_1_img_describe{
+    width: 240px;
+    height: 60px;
+    margin-top: -4px;
+    background: white;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_1 .sp_shang_ping_1_img_describe p{
+    width: 240px;
+    height: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_1 .sp_shang_ping_1_img_describe .price_div{
+    width: 160px;
+    height: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: red;
+}
+
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_2{
+    width: 240px;
+    height: 260px;
+    margin-top: -260px;
+    margin-left: 240px;
+    background: #def9fb;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_2 .sp_shang_ping_1_img img{
+    width: 240px;
+    height: 200px;
+    margin-top: 4px;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_2 .sp_shang_ping_1_img img:hover{
+    margin-top: 0px;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_2 .sp_shang_ping_1_img_describe{
+    width: 240px;
+    height: 60px;
+    margin-top: -4px;
+    background: white;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_2 .sp_shang_ping_1_img_describe p{
+    width: 240px;
+    height: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_2 .sp_shang_ping_1_img_describe .price_div{
+    width: 160px;
+    height: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: red;
+}
+
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_3{
+    width: 240px;
+    height: 260px;
+    margin-top: -260px;
+    margin-left: 480px;
+    background: #c8def4;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_3 .sp_shang_ping_1_img img{
+    width: 240px;
+    height: 200px;
+    margin-top: 4px;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_3 .sp_shang_ping_1_img img:hover{
+    margin-top: 0px;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_3 .sp_shang_ping_1_img_describe{
+    width: 240px;
+    height: 60px;
+    margin-top: -4px;
+    background: white;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_3 .sp_shang_ping_1_img_describe p{
+    width: 240px;
+    height: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_3 .sp_shang_ping_1_img_describe .price_div{
+    width: 160px;
+    height: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: red;
+}
+
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_4{
+    width: 240px;
+    height: 260px;
+    margin-top: -260px;
+    margin-left: 720px;
+    background: #def9fb;
+}
+
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_4 .sp_shang_ping_1_img img{
+    width: 240px;
+    height: 200px;
+    margin-top: 4px;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_4 .sp_shang_ping_1_img img:hover{  margin-top: 0px;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_4 .sp_shang_ping_1_img_describe{
+    width: 240px;
+    height: 60px;
+    margin-top: -4px;
+    background: white;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_4 .sp_shang_ping_1_img_describe p{
+    width: 240px;
+    height: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_4 .sp_shang_ping_1_img_describe .price_div{
+    width: 160px;
+    height: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: red;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_5{
+    width: 240px;
+    height: 260px;
+    margin-top: -260px;
+    margin-left: 960px;
+    background: #c8def4;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_5 .sp_shang_ping_1_img img{
+    width: 240px;
+    height: 200px;
+    margin-top: 4px;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_5 .sp_shang_ping_1_img img:hover{
+    margin-top: 0px;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_5 .sp_shang_ping_1_img_describe{
+    width: 240px;
+    height: 60px;
+    margin-top: -4px;
+    background: white;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_5 .sp_shang_ping_1_img_describe p{
+    width: 240px;
+    height: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.sp_center .sp_display .sp_display_shou_ji .sp_shang_ping_5 .sp_shang_ping_1_img_describe .price_div{
+    width: 160px;
+    height: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: red;
+}
+
+.sp_center .sp_display .sp_class_bing_xiang{
+    width: 1200px;
+    height: 200px;
+    background: greenyellow;
+    margin-top: -500px;
+}
+.sp_center .sp_display .sp_class_bing_xiang2{
+    width: 1200px;
+    height: 200px;
+    background: greenyellow;
+    margin-top: 506px;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1{
+    width: 600px;
+    height: 200px;
+    background: palegreen;
+    margin-top: -500px;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1 .sp_class_bing_xiang_1_img1{
+    width: 200px;
+    height: 200px;
+    background: mediumvioletred;
+    margin-top: -500px;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1 .sp_class_bing_xiang_1_img2{
+    width: 200px;
+    height: 200px;
+    background: indianred;
+    margin-top: -200px;
+    margin-left: 200px;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1 .sp_class_bing_xiang_1_img3{
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin-top: -200px;
+    margin-left: 400px;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1_describe{
+    width: 600px;
+    height: 200px;
+    background: white;
+    margin-left: 600px;
+    margin-top: -200px;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_1{
+    width: 600px;
+    height: 30px;
+    position: relative;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_2{
+    width: 600px;
+    height: 30px;
+    position: relative;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_3{
+    width: 600px;
+    height: 30px;
+    position: relative;
+}
+
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_3 .sp_xiang_3_man_jian{
+    left: 110px;
+    top: 4px;
+    position: absolute;
+    width:80px;
+    height: 18px;
+    border:2px solid red;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_3 .sp_xiang_3_man_jian a{
+    color: red;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_3 .sp_xiang_3_man_jian:hover{
+    background: #c1c1c1;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_4{
+    width: 600px;
+    height: 30px;
+    position: relative;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_4 .sp_xiang_4_chu_xiao{
+    left: 110px;
+    top: 6px;
+    position: absolute;
+    width: 480px;
+    height: 18px;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_5{
+    width: 600px;
+    height: 30px;
+    position: relative;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_5 .sp_xiang_5_man_jian{
+    left: 110px;
+    top: 4px;
+    position: absolute;
+    width:30px;
+    height: 18px;
+    border:3px solid red;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_5 p{
+    left: 150px;
+    top: 6px;
+    position: absolute;
+    width: 480px;
+    height: 18px;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_6{
+    width: 600px;
+    height: 50px;
+    position: relative;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_6_xiang_qiang{
+    width: 100px;
+    height: 25px;
+    left: 70px;
+    top: 10px;
+    position: absolute;
+    background: #def9fb;
+    border:3px solid red;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_6_xiang_qiang a{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    left: 8px;
+    top: 4px;
+    position: absolute;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_6_xiang_qiang:hover{
+    background: white;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_jia_ru_gou_wu_che{
+    width: 120px;
+    height: 25px;
+    left: 270px;
+    top: 10px;
+    position: absolute;
+    background: #def9fb;
+    border:3px solid red;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_jia_ru_gou_wu_che a{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    left: 8px;
+    top: 4px;
+    position: absolute;
+}
+.sp_center .sp_display .sp_class_bing_xiang .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_jia_ru_gou_wu_che:hover{
+    background: white;
+}
+
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1{
+    width: 600px;
+    height: 200px;
+    background: palegreen;
+    margin-top: -500px;
+}
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1 .sp_class_bing_xiang_1_img1{
+    width: 200px;
+    height: 200px;
+    background: mediumvioletred;
+    margin-top: -500px;
+}
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1 .sp_class_bing_xiang_1_img2{
+    width: 200px;
+    height: 200px;
+    background: indianred;
+    margin-top: -200px;
+    margin-left: 200px;
+}
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1 .sp_class_bing_xiang_1_img3{
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin-top: -200px;
+    margin-left: 400px;
+}
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe{
+    width: 600px;
+    height: 200px;
+    background: white;
+    margin-left: 600px;
+    margin-top: -200px;
+}
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_1{
+    width: 600px;
+    height: 30px;
+    position: relative;
+}
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_2{
+    width: 600px;
+    height: 30px;
+    position: relative;
+}
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_3{
+    width: 600px;
+    height: 30px;
+    position: relative;
+}
+
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_3 .sp_xiang_3_man_jian{
+    left: 110px;
+    top: 4px;
+    position: absolute;
+    width:80px;
+    height: 18px;
+    border:2px solid red;
+}
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_3 .sp_xiang_3_man_jian a{
+    color: red;
+}
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_3 .sp_xiang_3_man_jian:hover{
+    background: #c1c1c1;
+}
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_4{
+    width: 600px;
+    height: 30px;
+    position: relative;
+}
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_4 .sp_xiang_4_chu_xiao{
+    left: 110px;
+    top: 6px;
+    position: absolute;
+    width: 480px;
+    height: 18px;
+}
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_5{
+    width: 600px;
+    height: 30px;
+    position: relative;
+}
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_5 .sp_xiang_5_man_jian{
+    left: 110px;
+    top: 4px;
+    position: absolute;
+    width:30px;
+    height: 18px;
+    border:3px solid red;
+}
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_5 p{
+    left: 150px;
+    top: 6px;
+    position: absolute;
+    width: 480px;
+    height: 18px;
+}
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_6{
+    width: 600px;
+    height: 50px;
+    position: relative;
+}
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_6_xiang_qiang{
+    width: 100px;
+    height: 25px;
+    left: 70px;
+    top: 10px;
+    position: absolute;
+    background: #def9fb;
+    border:3px solid red;
+}
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_6_xiang_qiang a{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    left: 8px;
+    top: 4px;
+    position: absolute;
+}
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_6_xiang_qiang:hover{
+    background: white;
+}
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_jia_ru_gou_wu_che{
+    width: 120px;
+    height: 25px;
+    left: 270px;
+    top: 10px;
+    position: absolute;
+    background: #def9fb;
+    border:3px solid red;
+}
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_jia_ru_gou_wu_che a{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    left: 8px;
+    top: 4px;
+    position: absolute;
+}
+.sp_center .sp_display .sp_class_bing_xiang2 .sp_class_bing_xiang_1_describe .sp_xiang_6 .sp_xiang_jia_ru_gou_wu_che:hover{
+    background: white;
+}
+
+
+
+
+/*--------------------------------------  尾部样式  --------------------------------------------*/
+#sp_service-2014 .fore5{width: 100px;}
+.footer #sp_footer-2014 {
+    overflow: hidden;
+    border-top: 1px solid #E5E5E5;
+    padding: 20px 0 30px;
+    text-align: center;
+    height: 160px;
+    margin-top: -80px;
+    background: #E5E5E5;
+}
+.footer #sp_footer-2014 .sp_links{
+    /*margin: 40px 10px;*/
+    margin-top: 8px;
+    margin-left: 10px;
+}
+#sp_footer-2014 .sp_links a {
+    margin: 0 10px;
+}
+#sp_footer-2014 .sp_copyright {
+    margin: 14px 0;
+}
+#sp_footer-2014 .sp_authentication a {
+    margin: 10px 5px;
+    text-decoration: none;
+}
+#sp_footer-2014 .sp_footer_img img{
+    width: 600px;
+    height: 30px;
+    margin-bottom: 10px;
+}

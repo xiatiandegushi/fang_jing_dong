@@ -1,0 +1,145 @@
+/*--------------------------------------  商品详情  --------------------------------------------*/
+.xq_center{
+    width: 1200px;
+    height: 500px;
+    background: lightgoldenrodyellow;
+    margin: -20px auto 0;
+}
+.xq_center .xq_tu_pian_display{
+    width: 400px;
+    height: 500px;
+}
+.xq_center .xq_tu_pian_display img{
+    width: 400px;
+    height: 500px;
+}
+.xq_center .xq_form{
+    width: 800px;
+    height: 500px;
+    background: greenyellow;
+    margin-left: 400px;
+    margin-top: -500px;
+}
+.xq_center .xq_form .xq_describe{
+    width: 800px;
+    height: 30px;
+    background: white;
+    position: relative;
+}
+.xq_center .xq_form .xq_describe p{
+    font-size: 24px;
+    font-weight: bold;
+    left: 30px;
+    top: 8px;
+    position: absolute;
+}
+.xq_center .xq_form .xq_quan_qiu_hao_wu_jie{
+    width: 800px;
+    height: 50px;
+    background: red;
+}
+.xq_center .xq_form .xq_quan_qiu_hao_wu_jie img{
+    width: 800px;
+    height: 50px;
+}
+.xq_center .xq_form .xp_form1{
+    width: 800px;
+    height: 410px;
+    background: white;
+}
+.xq_center .xq_form .xp_form1 form table{
+    margin-left: 30px;
+    position: relative;
+}
+.xq_center .xq_form .xp_form1 form table tr{
+    width: 800px;
+    height: 36px;
+}
+.xq_center .xq_form .xp_form1 form table tr td .xq_man_jian1{
+    width: 96px;
+    height: 20px;
+    top: 44px;
+    left: 78px;
+    background: #F1F1F1;
+    border:1px solid red;
+    position: absolute;
+}
+.xq_center .xq_form .xp_form1 form table tr td .xq_man_jian1 p{
+    font-weight: bold;
+    font-size: 16px;
+    color: red;
+    top: 2px;
+    left: 8px;
+    position: absolute;
+}
+.xq_center .xq_form .xp_form1 form table tr td .xq_man_jian1:hover{
+    background: lightpink;
+}
+.xq_center .xq_form .xp_form1 form table tr td .xq_man_jian2{
+    width: 96px;
+    height: 20px;
+    top: 44px;
+    left: 194px;
+    background: #F1F1F1;
+    border:1px solid red;
+    position: absolute;
+}
+.xq_center .xq_form .xp_form1 form table tr td .xq_man_jian2 p{
+    font-weight: bold;
+    font-size: 16px;
+    color: red;
+    top: 2px;
+    left: 8px;
+    position: absolute;
+}
+.xq_center .xq_form .xp_form1 form table tr td .xq_man_jian2:hover{
+    background: lightpink;
+}
+ .xq_center .xq_form .xp_form1 form table tr td .xq_select{
+     left: 76px;
+     top: 122px;
+     position: absolute;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+    /*--------------------------------------  尾部样式  --------------------------------------------*/
+#sp_service-2015 .fore5{width: 100px;}
+.footer #sp_footer-2015 {
+    overflow: hidden;
+    border-top: 1px solid #E5E5E5;
+    padding: 20px 0 30px;
+    text-align: center;
+    height: 160px;
+    margin-top: 0px;
+    background: #E5E5E5;
+}
+.footer #sp_footer-2015 .sp_links{
+    /*margin: 40px 10px;*/
+    margin-top: 8px;
+    margin-left: 10px;
+}
+#sp_footer-2015 .sp_links a {
+    margin: 0 10px;
+}
+#sp_footer-2015 .sp_copyright {
+    margin: 14px 0;
+}
+#sp_footer-2015 .sp_authentication a {
+    margin: 10px 5px;
+    text-decoration: none;
+}
+#sp_footer-2015 .sp_footer_img img{
+    width: 600px;
+    height: 30px;
+    margin-bottom: 10px;
+}

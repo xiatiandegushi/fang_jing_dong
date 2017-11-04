@@ -1,0 +1,51 @@
+.xiu_gai{
+    width: 1200px;
+    height: 30px;
+    margin: 10px auto;
+    background: white;
+}
+.xiu_gai .xg_delete{
+    width: 100px;
+    height: 30px;
+    background: lightpink;
+    margin-left: 600px;
+    position: relative;
+}
+.xiu_gai .xg_delete a{
+     font-size: 26px;
+     font-weight: bold;
+     color: black;
+     top: 6px;
+     left: 10px;
+     position: absolute;
+ }
+.xiu_gai .xg_delete a:hover{
+    color: red;
+}
+.xiu_gai .xg_delete:hover{
+    background: #def9fb;
+}
+
+
+.xiu_gai .xg_audit{
+    width: 100px;
+    height: 30px;
+    background: lightpink;
+    margin-left: 800px;
+    margin-top: -30px;
+    position: relative;
+}
+.xiu_gai .xg_audit a{
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+    top: 6px;
+    left: 10px;
+    position: absolute;
+}
+.xiu_gai .xg_audit a:hover{
+    color: red;
+}
+.xiu_gai .xg_audit:hover{
+    background: #def9fb;
+}
